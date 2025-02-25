@@ -30,21 +30,26 @@
         <div>
 
             <label class="ruaLabel" for="rua">Rua:</label>
-            <input type="text" name="rua" id="rua">
+            <label class="numLabel" for="num">Nº:</label>
 
-            <label class="numLabel" for="num">Número da Residencia:</label>
+            <br>
+
+            <input type="text" name="rua" id="rua">
+            <input type="number" id="num" name="endereco">
+            
             <label class="cidadeLabel" for="cidade">Cidade:</label>
             <label class="estadoLabel" for="estado">Estado:</label>
             <label class="cepLabel" for="cep">CEP:</label>
 
             <br>
 
-            <input type="number" id="num" name="endereco">
             <input type="text" id="cidade" name="endereco" placeholder="Cidade">
             <input type="text" id="estado" name="endereco" placeholder="Estado">
             <input type="number" id="cep" name="endereco" placeholder="CEP">
 
         </div>
+
+        <input type="submit" value="Finalizar compra" class="enviar">
 
     </main>
 
